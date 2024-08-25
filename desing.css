@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oxygen:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -9,7 +9,7 @@ body{
 }
 .navbar{
     height: auto;
-    background: blueviolet;
+    /* background: blueviolet; */
     display:flex;
     flex-flow: wrap;
     justify-content: center;
@@ -19,12 +19,15 @@ body{
     flex: 20%;
     /* border: 1px solid red; */
     text-align: center;
-    margin-left: 10%;
+    margin-left: 5%;
+    
 }
 .logo h1{
     font-family: "New Amsterdam", sans-serif;
-    color: white;
+    color: blueviolet;
     font-size:37px;
+    background: rgba(129, 42, 211, 0.047);
+    border-radius: 10px;
 }
 .botao{
     flex: 40%;
@@ -34,13 +37,77 @@ body{
     margin-right: 10%;
 }
 .botao a{
-    color: white;
+    color: grey;
     text-decoration: none;
     font-size: 14px;
     padding: 10px 30px;
 }
 .botao a:hover{
-    font-size: 15px;
-    background-color: rgb(64, 21, 103);
-    border-radius: 10px;
+    border-radius: 5px;
+    border-top: 1px solid blueviolet;
+    background: rgba(129, 42, 211, 0.047);
+}
+.header{
+    /* background-color: rgb(173, 169, 169); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    /* border: 1px solid black; */
+    flex: 50%;
+    padding: 70px 10px;
+}
+.texto h2{
+    font-family: "New Amsterdam", sans-serif;
+    color: rgb(47, 46, 46);
+    padding:0px;
+    margin:0px;
+    margin-left: 200px;
+}
+.texto p{
+    font-family: "Source Code Pro", monospace;
+    font-size: small;
+    text-align: center;
+    display:grid;
+}
+
+.header_img{
+    flex:50%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.saiba{
+    border: 1px solid black;
+    margin-top: 100px;
+    padding: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display:inline-block;
+}
+.saiba h1{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    color: blueviolet;
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid;
+}
+.card h3{
+
+}
+.card p{
+    font-family: "Source Code Pro", monospace;
+    
 }
